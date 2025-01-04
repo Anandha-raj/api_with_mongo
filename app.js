@@ -5,7 +5,7 @@ const app = express();
 app.use(express.json());
 
 // Connect to MongoDB
-mongoose.connect('mongodb://127.0.0.1:27017/mentor-student-db', {
+mongoose.connect('mongodb+srv://aadhviksunpackprint:JkTs8haI3DpUvbze@cluster0.h76gp.mongodb.net/', {
     useNewUrlParser: true,
     useUnifiedTopology: true,
 });
